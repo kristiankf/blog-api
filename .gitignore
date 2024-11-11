@@ -1,0 +1,27 @@
+# Virtual environment
+venv/
+.env/
+
+# Django settings
+*.sqlite3
+*.pyc
+__pycache__/
+
+# Media and static files
+staticfiles/
+media/
+
+# Django migrations
+**/migrations/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Cache and build files
+.cache/
+build/
+dist/
+
+# MacOS system files
+.DS_Store
